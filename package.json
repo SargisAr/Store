@@ -4,6 +4,7 @@
   "description": "My implementation of the popular NgRx. technology. This is an attempt to recreate the logic of this technology based on the TypeScript programming language.",
   "main": "index.js",
   "scripts": {
+    "test": "echo \"No test specified\"",
     "build": "rimraf ./build && tsc",
     "start": "nodemon",
     "start:dev": "npm run build && node build/index.js"
