@@ -56,7 +56,6 @@ export enum StoreErrorEnum {
   selectorNoFound = 'No selector found with this name',
 }
 
-
 /**======================Observer Class======================*/
 
 /**
@@ -65,8 +64,7 @@ export enum StoreErrorEnum {
  * new Observer()
  */
 class Observer {
-  constructor() {
-  }
+  constructor() {}
 
   /**
    * Observers List
@@ -96,7 +94,6 @@ class Observer {
   }
 }
 
-
 /**======================Store Class======================*/
 
 /**
@@ -104,7 +101,7 @@ class Observer {
  * Example:
  * const store = Store.create()
  */
-export class Store {
+export default class Store {
   /**
    * Store Instance
    */
@@ -144,8 +141,7 @@ export class Store {
      * {users: () => {...do something}}
      */
     private selectors: SelectorInterface = {} as SelectorInterface,
-  ) {
-  }
+  ) {}
 
   /**
    * Action Create Function
@@ -216,7 +212,7 @@ export class Store {
   public on(
     action: string,
     callback: (state: StateInterface, props: unknown) => StateInterface,
-  ) {
+  ): void {
     this.reducers[action].subscribe(
       (data: StateInterface) => (this.state = callback(this.state, data)),
     );
