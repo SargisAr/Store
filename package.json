@@ -1,6 +1,6 @@
 {
   "name": "store-by-sargisar",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "My implementation of the popular NgRx. technology. This is an attempt to recreate the logic of this technology based on the TypeScript programming language.",
   "main": "index.js",
   "scripts": {
