@@ -5,7 +5,7 @@
  * Example:
  * {user: {name:'Bob', age: 23}}
  */
-export interface StateInterface {
+interface StateInterface {
   [key: string]: unknown;
 }
 
@@ -14,7 +14,7 @@ export interface StateInterface {
  * Example:
  * {user: new Observer()}
  */
-export interface ReducerListInterface {
+interface ReducerListInterface {
   [key: string]: Observer;
 }
 
@@ -26,7 +26,7 @@ export interface ReducerListInterface {
  *   props: true or false
  * }}
  */
-export interface ActionsListInterface {
+interface ActionsListInterface {
   [key: string]: {
     name: string;
     props: unknown;
@@ -38,7 +38,7 @@ export interface ActionsListInterface {
  * Example:
  * {user: (state: StateInterface) => state.user }
  */
-export interface SelectorInterface {
+interface SelectorInterface {
   [key: string]: (state: StateInterface) => unknown;
 }
 
@@ -49,7 +49,7 @@ export interface SelectorInterface {
  * Example:
  * throw new Error(StoreErrorEnum.propsNotPassed)
  */
-export enum StoreErrorEnum {
+enum StoreErrorEnum {
   propsNotPassed = 'Argument "Props" was not passed',
   actionNoFound = 'No action found with the same name',
   reducerNoFound = 'No reducer with this name was found',
@@ -101,7 +101,7 @@ class Observer {
  * Example:
  * const store = Store.create()
  */
-export default class Store {
+class Store {
   /**
    * Store Instance
    */
@@ -257,3 +257,5 @@ export default class Store {
     return this.selectors;
   }
 }
+
+export default Store;
