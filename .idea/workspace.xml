@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a62096d3-e3a1-450f-95f4-ef491ba00d4e" name="Default Changelist" comment="" />
+    <list default="true" id="a62096d3-e3a1-450f-95f4-ef491ba00d4e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodemon.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Store.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +25,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="23gWXr2mFTfYVHJBiK2wSEZgGnS" />
+  <component name="ProjectId" id="23p3n8z4h1o4v2nFgBgyvxT2pzv" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -25,25 +35,20 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../store — копия" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\sky\Desktop\store\node_modules\prettier" />
-    <property name="ts.external.directory.path" value="C:\Users\sky\Desktop\store\node_modules\typescript\lib" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a62096d3-e3a1-450f-95f4-ef491ba00d4e" name="Default Changelist" comment="" />
-      <created>1642156252120</created>
+      <changelist id="cacf283d-0ffe-4f01-bde5-a2a2d7bb0fa9" name="Default Changelist" comment="" />
+      <created>1642417364155</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1642156252120</updated>
-      <workItem from="1642156253336" duration="2008000" />
+      <updated>1642417364155</updated>
+      <workItem from="1642417365877" duration="2025000" />
     </task>
     <servers />
   </component>
@@ -51,17 +56,9 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="295" key="FileChooserDialogImpl" timestamp="1642153077537">
+    <state width="498" height="446" key="SwitcherDM" timestamp="1642418237132">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="740" y="295" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1642153077537" />
-    <state x="796" y="262" key="RollbackChangesDialog" timestamp="1642151690913">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="796" y="262" key="RollbackChangesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1642151690913" />
-    <state x="92" y="92" width="1736" height="896" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog" timestamp="1642158108003">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="92" y="92" width="1736" height="896" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1642158108003" />
+    <state width="498" height="446" key="SwitcherDM/0.0.1920.1080@0.0.1920.1080" timestamp="1642418237132" />
   </component>
 </project>

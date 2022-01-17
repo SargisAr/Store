@@ -1,39 +1,45 @@
 {
-  "name": "store-by-sargisar",
-  "version": "1.0.5",
+  "name": "sstore",
   "description": "My implementation of the popular NgRx. technology. This is an attempt to recreate the logic of this technology based on the TypeScript programming language.",
-  "main": "index.js",
+  "version": "1.0.5",
+  "homepage": "https://github.com/SargisAr/Store#readme",
+  "author": {
+    "name": "multimontana",
+    "email": "multimontana@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SargisAr/Store#readme"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/sky/Store/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/Store",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
   "scripts": {
-    "test": "echo \"No test specified\"",
-    "build": "rimraf ./build && tsc",
-    "start": "nodemon",
-    "start:dev": "npm run build && node build/index.js"
+    "test": "grunt nodeunit"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt": "~0.4.5"
+  },
+  "dependencies": {
+    "np": "^7.6.0"
   },
   "keywords": [
     "Store",
     "State",
     "TypeScript",
     "TS"
-  ],
-  "author": "Sargis Artashyan <sargis.artashyan.l@gmail.com>",
-  "license": "ISC",
-  "devDependencies": {
-    "@types/jest": "^26.0.14",
-    "@types/node": "^12.7.2",
-    "@typescript-eslint/eslint-plugin": "^2.21.0",
-    "@typescript-eslint/parser": "^2.21.0",
-    "eslint": "^6.8.0",
-    "eslint-config-prettier": "^6.10.0",
-    "eslint-plugin-prettier": "^3.1.2",
-    "nodemon": "^1.19.1",
-    "onchange": "^6.1.0",
-    "rimraf": "^3.0.0",
-    "run-script-os": "^1.1.1",
-    "ts-node": "^8.3.0",
-    "typescript": "^4.0.3"
-  },
-  "dependencies": {
-    "eslint-plugin-jest": "^24.1.0",
-    "np": "^7.6.0"
-  }
+  ]
 }
